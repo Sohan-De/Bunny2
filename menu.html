@@ -95,230 +95,294 @@
         </header>
 
         <div class="cn-menu__grid">
-          <div class="cn-tabs" role="tablist" aria-label="Catégories de la carte" data-tablist>
-            <button class="cn-index__btn" type="button" role="tab" id="tab-poulet" aria-selected="true" aria-controls="panel-poulet" data-panel="poulet"><span>01</span> Poulet Crousty</button>
-            <button class="cn-index__btn" type="button" role="tab" id="tab-burgers" aria-selected="false" aria-controls="panel-burgers" data-panel="burgers" tabindex="-1"><span>02</span> Burgers</button>
-            <button class="cn-index__btn" type="button" role="tab" id="tab-cheese" aria-selected="false" aria-controls="panel-cheese" data-panel="cheese" tabindex="-1"><span>03</span> Sandwichs</button>
-            <button class="cn-index__btn" type="button" role="tab" id="tab-menus" aria-selected="false" aria-controls="panel-menus" data-panel="menus" tabindex="-1"><span>04</span> Menus</button>
-            <button class="cn-index__btn" type="button" role="tab" id="tab-frites" aria-selected="false" aria-controls="panel-frites" data-panel="frites" tabindex="-1"><span>05</span> Frites &amp; sides</button>
-            <button class="cn-index__btn" type="button" role="tab" id="tab-desserts" aria-selected="false" aria-controls="panel-desserts" data-panel="desserts" tabindex="-1"><span>06</span> Desserts</button>
-            <button class="cn-index__btn" type="button" role="tab" id="tab-boissons" aria-selected="false" aria-controls="panel-boissons" data-panel="boissons" tabindex="-1"><span>07</span> Boissons</button>
+        <div class="cn-tabs" role="tablist" aria-label="Catégories de la carte" data-tablist>
+          <button class="cn-index__btn" type="button" role="tab" id="tab-sandwichs" aria-selected="true" aria-controls="panel-sandwichs" data-panel="sandwichs"><span>01</span> Sandwichs</button>
+          <button class="cn-index__btn" type="button" role="tab" id="tab-burgers" aria-selected="false" aria-controls="panel-burgers" data-panel="burgers" tabindex="-1"><span>02</span> Burgers</button>
+          <button class="cn-index__btn" type="button" role="tab" id="tab-crousty" aria-selected="false" aria-controls="panel-crousty" data-panel="crousty" tabindex="-1"><span>03</span> Crousty</button>
+          <button class="cn-index__btn" type="button" role="tab" id="tab-tacos" aria-selected="false" aria-controls="panel-tacos" data-panel="tacos" tabindex="-1"><span>04</span> Tacos &amp; bowls</button>
+        </div>
+        <div class="cn-menu__panels">
+        <div class="menu-panel" id="panel-sandwichs" role="tabpanel" aria-labelledby="tab-sandwichs">
+          <div class="menu-grid">
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Le Radical</h3>
+                <span class="menu-item__price">8,50 €</span>
+              </div>
+              <p class="menu-item__desc">2 steaks de 45 g, cordon bleu, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">RS3</h3>
+                <span class="menu-item__price">8,00 €</span>
+              </div>
+              <p class="menu-item__desc">3 steaks de 45 g, 2 cheddars, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Le Chicken Chikka</h3>
+                <span class="menu-item__price">7,00 €</span>
+              </div>
+              <p class="menu-item__desc">Escalope de poulet marinée à la sauce curry, 2 cheddars, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Le Master</h3>
+                <span class="menu-item__price">9,00 €</span>
+              </div>
+              <p class="menu-item__desc">3 steaks de 45 g, 2 cheddars, œuf, bacon de dinde, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Le Miam's</h3>
+                <span class="menu-item__price">8,00 €</span>
+              </div>
+              <p class="menu-item__desc">2 steaks de 45 g, escalope de poulet à la sauce curry, 2 cheddars, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Le Twin</h3>
+                <span class="menu-item__price">8,00 €</span>
+              </div>
+              <p class="menu-item__desc">Escalope de poulet à la sauce curry et à la sauce tandoori, 2 cheddars, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Le Chicken Tandoori</h3>
+                <span class="menu-item__price">7,00 €</span>
+              </div>
+              <p class="menu-item__desc">Escalope de poulet marinée à la sauce tandoori, 2 cheddars, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Kebab</h3>
+                <span class="menu-item__price">6,00 €</span>
+              </div>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Le Bunny's</h3>
+                <span class="menu-item__price">9,00 €</span>
+              </div>
+              <p class="menu-item__desc">Kefta, 2 cheddars, tenders, œuf, sauce aux choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Le Bled</h3>
+                <span class="menu-item__price">8,00 €</span>
+              </div>
+              <p class="menu-item__desc">2 kefta maison, 2 cheddars, œuf, sauce au choix</p>
+            </article>
           </div>
-
-          <div class="cn-menu__panels">
-            <div class="cn-panel" id="panel-poulet" role="tabpanel" aria-labelledby="tab-poulet">
-              <h3 class="cn-panel__title">Poulet Crousty</h3>
-              <ul class="cn-cards">
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 01</p>
-                  <h4 class="cn-card__name">Notre Poulet Crousty</h4>
-                  <p class="cn-card__desc">Poulet croustillant, riz tendre et sauce blanche crémeuse.</p>
-                  <p class="cn-card__price">12,50 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 02</p>
-                  <h4 class="cn-card__name">Poulet Crousty Tandoori</h4>
-                  <p class="cn-card__desc">Poulet croustillant aux saveurs tandoori, sauce gourmande sur un lit de riz.</p>
-                  <p class="cn-card__price">12,50 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 03</p>
-                  <h4 class="cn-card__name">Poulet Crousty Curry</h4>
-                  <p class="cn-card__desc">Poulet croustillant aux saveurs curry, sauce onctueuse sur un lit de riz.</p>
-                  <p class="cn-card__price">12,50 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 04</p>
-                  <h4 class="cn-card__name">Poulet Crousty Boursin</h4>
-                  <p class="cn-card__desc">Poulet croustillant nappé de sauce Boursin aux fines herbes, sur un lit de riz.</p>
-                  <p class="cn-card__price">12,50 €</p>
-                </li>
-              </ul>
-            </div>
-
-            <div class="cn-panel" id="panel-burgers" role="tabpanel" aria-labelledby="tab-burgers" hidden>
-              <h3 class="cn-panel__title">Burgers</h3>
-              <p class="cn-note">Seul ou en menu : +2 € avec frites et boisson.</p>
-              <ul class="cn-cards">
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 10</p>
-                  <h4 class="cn-card__name">Simple</h4>
-                  <p class="cn-card__desc">Pain, steak, cheddar, oignons frits, bacon et sauce Texas grill.</p>
-                  <p class="cn-card__price">7,50 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 11</p>
-                  <h4 class="cn-card__name">Double</h4>
-                  <p class="cn-card__desc">Pain, 2 steaks, cheddar, salade, tomate, oignons frits, bacon et sauce Texas grill.</p>
-                  <p class="cn-card__price">8,50 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 12</p>
-                  <h4 class="cn-card__name">Triple</h4>
-                  <p class="cn-card__desc">Pain, 3 steaks, cheddar, salade, tomate, oignons frits, bacon et sauce Texas grill.</p>
-                  <p class="cn-card__price">9,50 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 13</p>
-                  <h4 class="cn-card__name">Le Belge</h4>
-                  <p class="cn-card__desc">Rösti, salade, tomate, poivronnade et oignons frits.</p>
-                  <p class="cn-card__price">6,50 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 14</p>
-                  <h4 class="cn-card__name">Poulette</h4>
-                  <p class="cn-card__desc">Poulet pané, salade, tomate, oignons frits et sauce andalouse.</p>
-                  <p class="cn-card__price">7,50 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 15</p>
-                  <h4 class="cn-card__name">Chevrette</h4>
-                  <p class="cn-card__desc">Poulet, salade, tomate, oignons frits, chèvre et sauce miel moutarde.</p>
-                  <p class="cn-card__price">7,50 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 16</p>
-                  <h4 class="cn-card__name">Le Baps</h4>
-                  <p class="cn-card__desc">Steak, rösti, salade, tomate, oignon et sauce biggy.</p>
-                  <p class="cn-card__price">7,50 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 17</p>
-                  <h4 class="cn-card__name">Riz croustillant poulet</h4>
-                  <p class="cn-card__desc">Riz, poulet croustillant. Boisson 33 cl incluse.</p>
-                  <p class="cn-card__price">10,00 €</p>
-                </li>
-              </ul>
-            </div>
-
-            <div class="cn-panel" id="panel-cheese" role="tabpanel" aria-labelledby="tab-cheese" hidden>
-              <h3 class="cn-panel__title">Sandwichs</h3>
-              <ul class="cn-cards">
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 20</p>
-                  <h4 class="cn-card__name">L'Américain</h4>
-                  <p class="cn-card__desc">Sandwich, steak, cheddar, bacon, cornichon, salade, tomate, oignon et sauce biggy.</p>
-                  <p class="cn-card__price">8,00 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 24</p>
-                  <h4 class="cn-card__name">Le Montagne</h4>
-                  <p class="cn-card__desc">Sandwich, escalope de poulet, raclette, lardons, rösti, salade, tomate, oignon et sauce magic oignon.</p>
-                  <p class="cn-card__price">8,00 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 26</p>
-                  <h4 class="cn-card__name">Le Tandoori</h4>
-                  <p class="cn-card__desc">Sandwich, poulet, cheddar, salade, tomate, oignon et sauce américaine.</p>
-                  <p class="cn-card__price">8,00 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 25</p>
-                  <h4 class="cn-card__name">Le Tiger</h4>
-                  <p class="cn-card__desc">Sandwich, tenders, rouge de volaille, cheddar, salade, oignon frits et sauce dynamite.</p>
-                  <p class="cn-card__price">8,00 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 22</p>
-                  <h4 class="cn-card__name">Le Boursin</h4>
-                  <p class="cn-card__desc">Sandwich, escalope de poulet, Boursin, salade, tomate, oignons frits, salami.</p>
-                  <p class="cn-card__price">8,00 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 21</p>
-                  <h4 class="cn-card__name">Le Classic</h4>
-                  <p class="cn-card__desc">Sandwich, kebab, salade, tomate, oignon et sauce pitta.</p>
-                  <p class="cn-card__price">7,50 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 23</p>
-                  <h4 class="cn-card__name">Le New Delhi</h4>
-                  <p class="cn-card__desc">Sandwich, tikka curry, cheddar, salade, tomate, oignon et sauce indienne.</p>
-                  <p class="cn-card__price">8,00 €</p>
-                </li>
-                <li class="cn-card cn-reveal">
-                  <p class="cn-card__code">N° 27</p>
-                  <h4 class="cn-card__name">Composez votre burger</h4>
-                  <p class="cn-card__desc">Choisis tes viandes, tes sauces et tes suppléments (1 €). Seul 7,50 €, en menu 10,50 €. 2 viandes : seul 9,00 €, en menu 12,50 €.</p>
-                  <p class="cn-card__price">7,50 €</p>
-                </li>
-              </ul>
-            </div>
-
-            <div class="cn-panel" id="panel-menus" role="tabpanel" aria-labelledby="tab-menus" hidden>
-              <h3 class="cn-panel__title">Menus</h3>
-              <h4 class="cn-kicker cn-subhead">Menus Bunny’s</h4>
-              <ul class="cn-rows">
-                <li class="cn-row"><span class="cn-row__name">Menu Le Classic</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">15,95 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Menu Le Dynamite</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">15,95 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Menu Le Boursin</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">15,95 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Menu Le Montagnard</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">15,95 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Menu Le Tandoori</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">15,95 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Menu L'Américain</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">15,50 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Menu Le New Dehli</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">17,50 €</span></li>
-              </ul>
-              <h4 class="cn-kicker cn-subhead">Menus Poulet Crousty</h4>
-              <p class="cn-note">Chaque menu comprend une canette au choix.</p>
-              <ul class="cn-rows">
-                <li class="cn-row"><span class="cn-row__name">Menu Poulet Crousty</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">14,50 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Menu Poulet Crousty Tandoori</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">14,50 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Menu Poulet Crousty Curry</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">14,50 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Menu Poulet Crousty Boursin</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">14,50 €</span></li>
-              </ul>
-              <h4 class="cn-kicker cn-subhead">P'tits chefs</h4>
-              <ul class="cn-rows">
-                <li class="cn-row"><span class="cn-row__name">Menu kids (mini burger ou 4 nuggets, Caprisun, Pom’Potes, 1 surprise)</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">6,00 €</span></li>
-              </ul>
-            </div>
-
-            <div class="cn-panel" id="panel-frites" role="tabpanel" aria-labelledby="tab-frites" hidden>
-              <h3 class="cn-panel__title">Frites &amp; sides</h3>
-              <h4 class="cn-kicker cn-subhead">Nos frites</h4>
-              <ul class="cn-rows">
-                <li class="cn-row"><span class="cn-row__name">Frites</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">2,50 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Frites cheddar</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">3,00 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Frites cheddar oignon</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">3,50 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Frites cheddar bacon</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">4,00 €</span></li>
-              </ul>
-              <h4 class="cn-kicker cn-subhead">Les sides</h4>
-              <ul class="cn-rows">
-                <li class="cn-row"><span class="cn-row__name">Nos Nuggets (x4)</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">4,95 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Nos Nuggets (x6)</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">7,95 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Nos Tenders (x3)</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">6,05 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Nos Mozza Sticks (x4)</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">4,95 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Nos Camemberts frits (x4)</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">4,95 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Nos Wings (x3)</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">4,95 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Nos Wings (x6)</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">7,95 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Nos Wings (x10)</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">12,95 €</span></li>
-              </ul>
-            </div>
-
-            <div class="cn-panel" id="panel-desserts" role="tabpanel" aria-labelledby="tab-desserts" hidden>
-              <h3 class="cn-panel__title">Desserts</h3>
-              <h4 class="cn-kicker cn-subhead">Choisis ton dessert</h4>
-              <ul class="cn-rows">
-                <li class="cn-row"><span class="cn-row__name">Desserts (spéculoos nutella, Daim, Oreo nutella, mangue, Paris-Brest, pistache framboise)</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">3,50 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Tarte Daim</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">3,00 €</span></li>
-              </ul>
-            </div>
-
-            <div class="cn-panel" id="panel-boissons" role="tabpanel" aria-labelledby="tab-boissons" hidden>
-              <h3 class="cn-panel__title">Boissons</h3>
-              <h4 class="cn-kicker cn-subhead">Softs (33 cl sauf mention)</h4>
-              <ul class="cn-rows">
-                <li class="cn-row"><span class="cn-row__name">Coca-Cola</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">2,20 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Coca-Cola Zéro</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">2,20 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Sprite</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">2,20 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Oasis Tropical</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">2,20 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Hawaï</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">2,20 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">FuzeTea</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">2,20 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Orangina</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">2,20 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Perrier</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">2,20 €</span></li>
-                <li class="cn-row"><span class="cn-row__name">Cristaline (50 cl)</span><span class="cn-row__leader" aria-hidden="true"></span><span class="cn-row__price">2,20 €</span></li>
-              </ul>
-            </div>
+          <p class="menu-note">Menu +2 €</p>
+        </div>
+        <div class="menu-panel" id="panel-burgers" role="tabpanel" aria-labelledby="tab-burgers" hidden>
+          <div class="menu-grid">
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Bunny’s Burger</h3>
+                <span class="menu-item__price">4,50 €</span>
+              </div>
+              <p class="menu-item__desc">1 steak, cheddar, chèvre, miel, salade, oignons crispy, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Veggie</h3>
+                <span class="menu-item__price">4,50 €</span>
+              </div>
+              <p class="menu-item__desc">Galette de pdt, salade, tomate, oignons, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">B-Max</h3>
+                <span class="menu-item__price">7,00 €</span>
+              </div>
+              <p class="menu-item__desc">1 steak, galette de pommes de terre, 2 cheddars, salade, tomates, oignons, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">B-Town</h3>
+                <span class="menu-item__price">7,00 €</span>
+              </div>
+              <p class="menu-item__desc">Poulet pané, galette de pommes de terre, 2 cheddars, salade, tomate, oignons, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Big Egg</h3>
+                <span class="menu-item__price">6,50 €</span>
+              </div>
+              <p class="menu-item__desc">1 steak, cheddar, œuf, salade, tomate, oignons, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">B-Royal</h3>
+                <span class="menu-item__price">8,00 €</span>
+              </div>
+              <p class="menu-item__desc">Steak, poulet pané, 2 cheddars, salade, tomate, oignons, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Classique</h3>
+                <span class="menu-item__price">6,00 €</span>
+              </div>
+              <p class="menu-item__desc">1 steak, cheddar, salade, tomate, oignons, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Chicken</h3>
+                <span class="menu-item__price">6,00 €</span>
+              </div>
+              <p class="menu-item__desc">Poulet pané, cheddar, salade, tomate, oignons, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Le Chèvre Miel</h3>
+                <span class="menu-item__price">7,00 €</span>
+              </div>
+              <p class="menu-item__desc">1 steak, cheddar, chèvre, miel, salade, oignons crispy, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Raclette</h3>
+                <span class="menu-item__price">7,00 €</span>
+              </div>
+              <p class="menu-item__desc">1 steak, raclette, salade, tomate, oignons, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Big Bunny's</h3>
+                <span class="menu-item__price">6,50 €</span>
+              </div>
+              <p class="menu-item__desc">Burger Big</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Big Max</h3>
+                <span class="menu-item__price">6,50 €</span>
+              </div>
+              <p class="menu-item__desc">Burger Big Max</p>
+            </article>
+          </div>
+          <p class="menu-note">Menu +2 €. Menu enfant : 6 € (burger, frites, Capri-Sun).</p>
+        </div>
+        <div class="menu-panel" id="panel-crousty" role="tabpanel" aria-labelledby="tab-crousty" hidden>
+          <div class="menu-grid">
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Classic</h3>
+                <span class="menu-item__price">8,50 €</span>
+              </div>
+              <p class="menu-item__desc">Poulet crousty, sauce au choix</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Tandoori</h3>
+                <span class="menu-item__price">8,50 €</span>
+              </div>
+              <p class="menu-item__desc">Poulet crousty, sauce tandoori</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Curry</h3>
+                <span class="menu-item__price">8,50 €</span>
+              </div>
+              <p class="menu-item__desc">Poulet crousty, sauce curry</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Salade chèvre miel chaud</h3>
+                <span class="menu-item__price">8,00 €</span>
+              </div>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Salade tenders crispy</h3>
+                <span class="menu-item__price">7,50 €</span>
+              </div>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Salade burrata</h3>
+                <span class="menu-item__price">8,00 €</span>
+              </div>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Assiette</h3>
+                <span class="menu-item__price">12,00 €</span>
+              </div>
+              <p class="menu-item__desc">Kebab, kefta, chicken curry ou tandoori, tenders, cordon bleu, frites, salade, sauce</p>
+            </article>
           </div>
         </div>
+        <div class="menu-panel" id="panel-tacos" role="tabpanel" aria-labelledby="tab-tacos" hidden>
+          <div class="menu-grid">
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Tacos M</h3>
+                <span class="menu-item__price">6,50 €</span>
+              </div>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Tacos L</h3>
+                <span class="menu-item__price">8,50 €</span>
+              </div>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Tacos XL</h3>
+                <span class="menu-item__price">10,50 €</span>
+              </div>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Bowls</h3>
+                <span class="menu-item__price">8,00 €</span>
+              </div>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Pâtes</h3>
+                <span class="menu-item__price">8,00 €</span>
+              </div>
+              <p class="menu-item__desc">Supplément +1 €</p>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Nuggets x6</h3>
+                <span class="menu-item__price">5,00 €</span>
+              </div>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Tenders x4</h3>
+                <span class="menu-item__price">6,00 €</span>
+              </div>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Onion rings x6</h3>
+                <span class="menu-item__price">5,00 €</span>
+              </div>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Bunny’s rings x6</h3>
+                <span class="menu-item__price">5,00 €</span>
+              </div>
+            </article>
+            <article class="menu-item">
+              <div class="menu-item__top">
+                <h3 class="menu-item__name">Jalapeños x6</h3>
+                <span class="menu-item__price">5,00 €</span>
+              </div>
+            </article>
+          </div>
+          <p class="menu-note">Menu tacos +2 €. Boisson +1 €.</p>
+        </div>
+        </div>
+      </div>
       </div>
     </section>
     <section class="cn-section sp-section">
